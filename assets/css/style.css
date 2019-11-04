@@ -19,6 +19,9 @@
   body {
       margin-left: 100px;
       margin-right: 100px;
+      margin-top: 0;
+      background-image: url(../images/triangle-mosaic.png);
+
   }
 
   h1 {
@@ -42,15 +45,19 @@
 
   .button {
     float: right;
-    margin-top: 15px;
+    margin-top: 37px;
     padding-right: 20px;
-    padding-top: 20px;
     font-size: 12px;
     margin-left: 1em;
     border-right: solid;
     border-width: 1px;
     border-color: #cccccc;
     text-align: center;
+  }
+
+  .tonPhoto {
+    width: 30%;
+    float: left;
   }
 
   footer {
