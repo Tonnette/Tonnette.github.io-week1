@@ -25,12 +25,16 @@
   }
 
   h1 {
+    margin-top: 0;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 87px;
+    width: 250px;
     color: white;
+    text-align: center;
     font-size: 25px;
-    padding: 20px;
     display: inline-block;
+    padding-top: 30px;
   
 
 
@@ -74,6 +78,7 @@
     background-color: white;
     float: left;
     text-align: center;
+    border: 1px solid #cccccc;
     z-index: -100;
   }
   .tonPhoto {
