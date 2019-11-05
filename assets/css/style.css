@@ -39,9 +39,20 @@
   h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
- 
-
   }
+
+  .aboutMe {
+      margin-top: 0;
+      margin-left: 25px;
+      width: 92%;
+      height: 90px;
+      background-color: white;
+      text-align: center;
+      padding-top:15px;
+      border-bottom: 2px solid #cccccc;
+     
+  }
+
 
   .button {
     float: right;
@@ -55,9 +66,33 @@
     text-align: center;
   }
 
-  .tonPhoto {
-    width: 30%;
+  .largeWhiteBox {
+    clear: both;
+    overflow: auto;
+    width: 960px;
+    height: 500px;
+    background-color: white;
     float: left;
+    text-align: center;
+    z-index: -100;
+  }
+  .tonPhoto {
+    float: left;
+    z-index: 100;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+  p {
+
+    padding-left: 30px;
+    padding-right: 50px;
+    line-height: 1.5;
+    margin-top: 10px;
+
+
+
+
   }
 
   footer {
