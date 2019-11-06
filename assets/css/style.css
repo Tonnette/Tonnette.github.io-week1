@@ -83,6 +83,15 @@ h2 {
     text-align: center;
 }
 
+.contact {
+    float: right;
+    margin-top: 37px;
+    padding-right: 20px;
+    font-size: 12px;
+    margin-left: 1em;
+    text-align: center;
+}
+
 .largeWhiteBox {
     clear: both;
     overflow: auto;
