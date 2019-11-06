@@ -5,6 +5,26 @@
     color: #777777;
 }
 
+a:link {
+    color: pink;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a:active {
+    color: #008B8B;
+    text-decoration: none;
+}
+
 .topBox {
     position: fixed;
     left: 0;
